@@ -40,6 +40,17 @@ section{
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.371);
 }
 
+.btn-danger{
+    transition: all .5s ease;
+    color: black!important;
+    margin-bottom: 14px;
+}
+
+.btn-danger:hover{
+    transition: all .5s ease;
+    transform: translateX(3px);
+    color: blue !important;
+}
 
 /*=== Navbar M queries ===*/
 
@@ -117,10 +128,13 @@ section{
     color: black !important;
     font-size: 1.1rem;
     font-weight: bold !important;
+    transition: all .5s ease;
 }
 
-.btn:hover{
+.btn-primary:hover{
     color:rgba(0, 0, 255, 0.627) !important;
+    transition: all .5s ease;
+    transform: translateY(7px);
 }
 
 
@@ -211,3 +225,28 @@ section{
 }
 
 /*========================================================== Home Section Ends =============================================================*/
+
+
+
+/*========================================================== About Section Starts =============================================================*/
+.about-content{
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.627), rgba(255, 0, 106, 0.715));
+}
+
+.about-content h2{
+    color: white;
+}
+
+.about-content h6{
+    color: white;
+    margin-top: 14px;
+}
+
+.about-content p{
+    color: white;
+}
+
+.about-img{
+    background: linear-gradient(90deg, rgba(255, 0, 106, 0.7), rgba(0, 0, 255, 0.7));
+}
+/*========================================================== About Section Ends =============================================================*/

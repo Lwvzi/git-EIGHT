@@ -65,6 +65,12 @@ section{
     color: blue !important;
 }
 
+a.nav-link.active{
+    background: -webkit-linear-gradient(rgb(254, 104, 129), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*=== Navbar M queries ===*/
 
 /* Medium devices (tablets, 768px and up)*/
@@ -475,5 +481,41 @@ section{
 
 
 /*========================================================== Portfolio Section Starts =============================================================*/
+
+.project{
+    position: relative;
+    overflow: hidden;
+}
+
+.project img{
+    transition: all 1s ease;
+}
+
+.project a{
+    width: 121px;
+    height: 121px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    transform: translate(-50%, -50%);       /*to centr btn*/
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project:hover img{
+    transform: scale(1.4);
+}
+
+.project:hover a{
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /*========================================================== Portfolio Section Ends =============================================================*/

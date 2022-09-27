@@ -238,7 +238,7 @@ section{
 }
 
 .about-content h6{
-    color: white;
+    color: rgb(255, 0, 106);
     margin-top: 14px;
 }
 
@@ -249,4 +249,120 @@ section{
 .about-img{
     background: linear-gradient(90deg, rgba(255, 0, 106, 0.7), rgba(0, 0, 255, 0.7));
 }
+
+/*#home*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #about{
+        width: 100vw;
+    }
+
+    #about p{
+        font-size: 1.3rem;
+    }
+    
+    #about h1{
+        font-size: 1.7rem;
+    }
+
+    #about h2{
+        font-size: 1.5rem;
+    }
+
+    #about h6{
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #about{
+        width: 100vw;
+    }
+
+    #about p{
+        font-size: 1.5rem;
+    }
+    
+    #about h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #about h2{
+        font-size: 1.7rem;
+    }
+    
+    #about h6{
+        font-size: 1.4rem;
+    }
+
+    .btn{
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #about{
+        width: 100vw;
+    }
+
+    #about p{
+        font-size: 1.7rem;
+    }
+    
+    #about h1{
+        font-size: 2.5rem;
+        margin-bottom: 1.9rem;
+    }
+
+    #about h2{
+        font-size: 2.2rem;
+    }
+    
+    #about h6{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #about{
+        width: 100vw;
+    }
+
+    #about p{
+        font-size: 2rem;
+    }
+    
+    #about h1{
+        font-size: 2.7rem;
+        margin-bottom: 1.9rem;
+    }
+
+    #about h2{
+        font-size: 2.4rem;
+    }
+    
+    #about h6{
+        font-size: 1.8rem;
+    }
+
+    .btn{
+        margin-top: 1.5rem;
+        font-size: 1.7rem;
+    }
+}
+
 /*========================================================== About Section Ends =============================================================*/

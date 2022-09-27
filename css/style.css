@@ -519,3 +519,66 @@ a.nav-link.active{
 
 
 /*========================================================== Portfolio Section Ends =============================================================*/
+/*========================================================== Contact Section Starts =============================================================*/
+
+/*#contact*/
+/* Small devices (landscape phones, 576px and up)*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #contact{
+        width: 100vw;
+    }
+
+    .form-group h4{
+        font-size: 1rem
+    }
+
+    .map h2{
+        font-size: 2.2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #contact{
+        width: 100vw;
+    }
+
+    .form-group h4{
+        font-size: 1.3rem
+    }
+
+    .map h2{
+        font-size: 2.7rem;
+    }
+}
+
+
+/*========================================================== Contact Section Ends =============================================================*/
+/*========================================================== Footer Section Starts =============================================================*/
+
+/*footer*/
+footer{
+    background: linear-gradient(90deg, rgba(255, 0, 106, 0.7), rgba(0, 0, 255, 0.7));
+    color:white;
+    width: 100vw;
+}
+
+footer p{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.social-links i{
+    font-size: 1.2rem;
+    color: white;
+    transition: all .4s ease;
+}
+
+.social-links i:hover{
+    color: rgb(254, 104, 129);
+    transition: all .4s ease;
+}
+
+/*========================================================== Footer Section Ends =============================================================*/

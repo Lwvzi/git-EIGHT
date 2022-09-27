@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    color: rgba(128, 128, 128, 0.567);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.792);
+}
+
+p{
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+    transition: all .4s ease;
+    font-weight: 700;
+}
+
+a:hover{
+    color: rgb(255, 0, 106) !important;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 121px 0;
+}
+
+/*============== Navbar Starts =============*/
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.371);
+}
+
+
+/*=== Navbar M queries ===*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .navbar{
+        width: 100vw;
+    }
+
+    .fa-bars{
+        font-size: 1.5rem;
+    }
+
+    .nav-item .nav-link{
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand{
+        font-size: 1.9rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .navbar{
+        width: 100vw;
+    }
+
+    .fa-bars{
+        font-size: 1.7rem;
+    }
+
+    .nav-item .nav-link{
+        font-size: 1.7rem;
+    }
+
+    .navbar-brand{
+        font-size: 2rem;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .navbar{
+        width: 100vw;
+    }
+
+    .nav-item .nav-link{
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand{
+        font-size: 2.1rem
+    }
+}
+
+
+/*============== Navbar Ends =============*/
+
+
+/*========================================================== Home Section Starts =============================================================*/
+
+#home{
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0.627), rgba(255, 0, 106, 0.715)), url('.//nasa-Q1p7bh3SHj8-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn{
+    background:rgb(255, 0, 106) !important;
+    border: none;
+    color: black !important;
+    font-size: 1.1rem;
+    font-weight: bold !important;
+}
+
+.btn:hover{
+    color:rgba(0, 0, 255, 0.627) !important;
+}
+
+/*========================================================== Home Section Ends =============================================================*/

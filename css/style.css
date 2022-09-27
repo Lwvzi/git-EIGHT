@@ -84,11 +84,11 @@ a.nav-link.active{
     }
 
     .nav-item .nav-link{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .navbar-brand{
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -103,11 +103,11 @@ a.nav-link.active{
     }
 
     .nav-item .nav-link{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     .navbar-brand{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -184,8 +184,7 @@ a.nav-link.active{
     }
 
     #home p{
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
+        font-size: 1.4rem;
     }
     
     #home h1{
@@ -206,12 +205,12 @@ a.nav-link.active{
     }
 
     #home p{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         margin-top: 1.8rem;
     }
     
     #home h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 1.9rem;
     }
 
@@ -228,13 +227,11 @@ a.nav-link.active{
     }
 
     #home p{
-        font-size: 2.2rem;
-        margin-top: 1.8rem;
+        font-size: 1.7rem;
     }
     
     #home h1{
-        font-size: 2.7rem;
-        margin-bottom: 1.9rem;
+        font-size: 2rem;
     }
 
     .btn{
@@ -309,7 +306,6 @@ a.nav-link.active{
     
     #about h1{
         font-size: 2rem;
-        margin-bottom: 1rem;
     }
 
     #about h2{
@@ -321,7 +317,6 @@ a.nav-link.active{
     }
 
     .btn{
-        margin-top: 1.5rem;
         font-size: 1.3rem;
     }
 }
@@ -337,12 +332,12 @@ a.nav-link.active{
     }
     
     #about h1{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         margin-bottom: 1.9rem;
     }
 
     #about h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     
     #about h6{
@@ -362,7 +357,7 @@ a.nav-link.active{
     }
 
     #about p{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     #about h1{
@@ -371,7 +366,7 @@ a.nav-link.active{
     }
 
     #about h2{
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
     
     #about h6{
@@ -466,11 +461,11 @@ a.nav-link.active{
     }
 
     #services p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     #services h1{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     #services h5{
@@ -535,7 +530,7 @@ a.nav-link.active{
     }
 
     .map h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
 
@@ -546,11 +541,11 @@ a.nav-link.active{
     }
 
     .form-group h4{
-        font-size: 1.3rem
+        font-size: 1.2rem
     }
 
     .map h2{
-        font-size: 2.7rem;
+        font-size: 2.3rem;
     }
 }
 

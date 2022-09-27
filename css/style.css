@@ -123,4 +123,91 @@ section{
     color:rgba(0, 0, 255, 0.627) !important;
 }
 
+
+/*#home*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #home{
+        width: 100vw;
+    }
+
+    #home p{
+        font-size: 1.3rem;
+    }
+    
+    #home h1{
+        font-size: 1.7rem;
+    }
+
+    .btn{
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #home{
+        width: 100vw;
+    }
+
+    #home p{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    #home h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn{
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #home{
+        width: 100vw;
+    }
+
+    #home p{
+        font-size: 1.7rem;
+        margin-top: 1.8rem;
+    }
+    
+    #home h1{
+        font-size: 2.5rem;
+        margin-bottom: 1.9rem;
+    }
+
+    .btn{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #home{
+        width: 100vw;
+    }
+
+    #home p{
+        font-size: 2.2rem;
+        margin-top: 1.8rem;
+    }
+    
+    #home h1{
+        font-size: 2.7rem;
+        margin-bottom: 1.9rem;
+    }
+
+    .btn{
+        margin-top: 1.5rem;
+        font-size: 1.7rem;
+    }
+}
+
 /*========================================================== Home Section Ends =============================================================*/
